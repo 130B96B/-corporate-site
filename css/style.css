@@ -77,9 +77,36 @@ nav ul li{
     height: calc(100vh - 80px);
     object-fit: cover;
 }
+#news{
+    margin-bottom: 120px;
+}
 #news ul{
     display: flex;
     justify-content: space-around;
+}
+#news ul li{
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+#news ul li:last-of-type{
+    border-right: none;
+}
+#news ul time,
+#news ul div{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#news ul time{
+    font-size: 0.9rem;
+    margin-right: 15px;
+}
+#news ul div{
+    font-size: 0.65rem;
+    background-color: #000;
+    color: #f0f0f0;
+}
+#news ul p{
+    font-size: 0.9rem;
 }
 #about{
     display: flex;
