@@ -8,6 +8,9 @@ a{
     text-decoration: none;
     color: black;
 }
+body {
+    font-family: sans-serif;
+}
 ul{
     padding-left: 0;
 }
@@ -25,6 +28,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #f0f0f0; 
 }
 .logo img{
     width: 100px;
@@ -100,9 +104,10 @@ h2::after{
 }
 #news ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #news ul li{
+    width: calc(100%/3);
     border-right: 1px solid black;
     margin-right: 10px;
 }
@@ -139,10 +144,8 @@ h2::after{
 }
 .about-text{
     width: 45%;
-    padding: 200px 0 200px 80px;
-}
-#business{
-
+    padding: 200px 80px;
+    line-height: 45px;
 }
 .contents{
     display: flex;
@@ -177,7 +180,7 @@ h2::after{
 }
 #company{
     margin-top: 70px;
-    height: 800px;
+    height: 1000px;
     max-width: 1000px;
     width: 100%;
     display: flex;
@@ -212,7 +215,7 @@ h2::after{
 }
 .company-img{
     position: absolute;
-    width: 40%;
+    width: 50%;
     left: 520px;
 }
 .company-img img{
@@ -243,6 +246,7 @@ footer{
     font-size: 0.6rem;
     margin: 0 auto;
     padding-top: 40px;
+    max-width: 1000px;
 }
 @media screen and (max-width: 900px){
     .header{
@@ -265,6 +269,9 @@ footer{
     }
     #mainvisual{
         margin-bottom: 80px;
+    }
+    h2::after{
+        margin-bottom: 20px;
     }
     .title-ja{
         margin-bottom: 24px;
@@ -307,7 +314,6 @@ footer{
     }
     .left-content{
         width: 100%;
-        margin: 0 0 30px 0;
     }
     .right-content{
         width: 100%;
@@ -357,6 +363,8 @@ footer{
     .info .logo{
         margin-bottom: 10px;
         padding-left: 0;
-
+    }
+    .copyright{
+        margin-left: 20px;
     }
 }
