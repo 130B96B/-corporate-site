@@ -317,11 +317,12 @@ footer{
     }
     .left-content{
         width: 100%;
+        margin-top: 0;
     }
     .right-content{
         width: 100%;
     }
-  
+
     #company{
         height: auto;
         flex-direction: column;
