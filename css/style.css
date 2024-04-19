@@ -51,6 +51,9 @@ nav ul{
 nav ul li{
     margin-right: 30px;
 }
+nav ul li:last-of-type{
+    margin-right: 0px;
+}
 .header-right{
     width: 200px;
     height: 80px;
